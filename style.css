@@ -402,9 +402,19 @@ img {
 
 /* Responsive Css */
 @media (max-width: 991px) {
+    .btnScrollToTop {
+        display: none;
+    }
+    .btnScrollToTop.active {
+        display: none;
+    }
     header,
     header.sticky {
         padding: 20px 50px;
+    }
+
+    .name{
+        font-size: 2.5em;
     }
 
     .menu {
@@ -510,6 +520,13 @@ img {
 @media (max-width: 600px) {
     .btnScrollToTop {
         display: none;
+    }
+    .btnScrollToTop.active {
+        display: none;
+    }
+
+    .name{
+        font-size: 1.2em;
     }
     header,
     header.sticky {
