@@ -508,6 +508,9 @@ img {
 }
 
 @media (max-width: 600px) {
+    .btnScrollToTop {
+        display: none;
+    }
     header,
     header.sticky {
         padding: 20px 20px;
