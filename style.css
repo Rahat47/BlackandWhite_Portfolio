@@ -402,12 +402,6 @@ img {
 
 /* Responsive Css */
 @media (max-width: 991px) {
-    .btnScrollToTop {
-        display: none;
-    }
-    .btnScrollToTop.active {
-        display: none;
-    }
     header,
     header.sticky {
         padding: 20px 50px;
